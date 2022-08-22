@@ -1,0 +1,291 @@
+关于springboot中的一些注解
+https://blog.csdn.net/sz85850597/category_7417359.html
+
+@Bean注解只适合简单的注册，内容的实现在其它地方进行实现，
+而在spring容器中的注册部分再使用@Bean注解进行注册
+如果一个bean的定义依赖其他bean，则直接调用对应的JavaConfig类中依赖bean的创建方法就可以了
+
+
+关于maven中的插件的使用
+https://blog.csdn.net/weixin_44784673/article/details/100146540?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-1-100146540-blog-106867161.pc_relevant_multi_platform_whitelistv3&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-1-100146540-blog-106867161.pc_relevant_multi_platform_whitelistv3&utm_relevant_index=2
+
+
+如果不写restcontroller，那么return的string类型的直接被作为返回的url，而且是forward类型的
+
+写了restcontroller，return的string类型的会被解析为json字符串，直接显示到前端html界面
+
+return里面只要写了redirect或者forward就不进行字符串的拼接了
+
+
+springmvc自动将返回对象转为json类型的字符串
+
+
+mybatis开始事务管理
+https://blog.csdn.net/qq_48922459/article/details/122391710?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-122391710-blog-105622751.pc_relevant_multi_platform_whitelistv2_exp3w&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-122391710-blog-105622751.pc_relevant_multi_platform_whitelistv2_exp3w&utm_relevant_index=1
+
+
+
+关于debug和run模式下热更新
+https://ask.csdn.net/questions/718705
+
+关于springboot中自动开启事务
+https://blog.csdn.net/qq_40794973/article/details/106597952
+
+
+springboot中事务配置
+https://www.cnblogs.com/alice-cj/p/10417773.html#:~:text=Spring%E4%BA%8B%E5%8A%A1%3Ctx%3Aannotation-driven%2F%3E%E7%9A%84%E7%90%86%E8%A7%A3%20%E5%9C%A8%E4%BD%BF%E7%94%A8Spring%E7%9A%84%E6%97%B6%E5%80%99%EF%BC%8C%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E4%B8%AD%E6%88%91%E4%BB%AC%E7%BB%8F%E5%B8%B8%E7%9C%8B%E5%88%B0%20annotation-driven,%E8%BF%99%E6%A0%B7%E7%9A%84%E6%B3%A8%E8%A7%A3%EF%BC%8C%E5%85%B6%E5%90%AB%E4%B9%89%E5%B0%B1%E6%98%AF%E6%94%AF%E6%8C%81%E6%B3%A8%E8%A7%A3%EF%BC%8C%E4%B8%80%E8%88%AC%E6%A0%B9%E6%8D%AE%E5%89%8D%E7%BC%80%20tx%E3%80%81mvc%20%E7%AD%89%E4%B9%9F%E8%83%BD%E5%BE%88%E7%9B%B4%E7%99%BD%E7%9A%84%E7%90%86%E8%A7%A3%E5%87%BA%E6%9D%A5%E5%88%86%E5%88%AB%E7%9A%84%E4%BD%9C%E7%94%A8%E3%80%82
+
+
+使用properties注册bean
+https://www.cnblogs.com/xiaomaomao/p/13934688.html
+
+
+cmd杀死被占用的端口号
+https://blog.csdn.net/Stepeh/article/details/83022664
+
+
+文件头
+https://blog.csdn.net/admin123404/article/details/100996968?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-100996968-blog-81740385.pc_relevant_aa_2&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-100996968-blog-81740385.pc_relevant_aa_2&utm_relevant_index=1
+
+
+类信息快速注释
+https://blog.csdn.net/weixin_43320895/article/details/125210879
+/**
+ *@ClassName   :${NAME}
+ *@Description : 
+ *@Author      : 郭浩然 
+ *@Date        : ${YEAR}/${MONTH}/${DAY}/${TIME}
+ */
+
+
+方法快速注释
+https://blog.csdn.net/xiaoliulang0324/article/details/79030752
+*
+ * MethodName : $methodName$
+ * Description: 
+ * @Params: $param$
+ * @Return: $return$
+ */
+
+
+关于springboot中的一些注解
+https://blog.csdn.net/sz85850597/category_7417359.html
+
+@Bean注解只适合简单的注册，内容的实现在其它地方进行实现，
+而在spring容器中的注册部分再使用@Bean注解进行注册
+如果一个bean的定义依赖其他bean，则直接调用对应的JavaConfig类中依赖bean的创建方法就可以了
+
+
+关于maven中的插件的使用
+https://blog.csdn.net/weixin_44784673/article/details/100146540?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-1-100146540-blog-106867161.pc_relevant_multi_platform_whitelistv3&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-1-100146540-blog-106867161.pc_relevant_multi_platform_whitelistv3&utm_relevant_index=2
+
+
+如果不写restcontroller，那么return的string类型的直接被作为返回的url，而且是forward类型的
+
+写了restcontroller，return的string类型的会被解析为json字符串，直接显示到前端html界面
+
+return里面只要写了redirect或者forward就不进行字符串的拼接了
+
+
+springmvc自动将返回对象转为json类型的字符串
+
+
+mybatis开始事务管理
+https://blog.csdn.net/qq_48922459/article/details/122391710?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-122391710-blog-105622751.pc_relevant_multi_platform_whitelistv2_exp3w&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-122391710-blog-105622751.pc_relevant_multi_platform_whitelistv2_exp3w&utm_relevant_index=1
+
+
+
+关于debug和run模式下热更新
+https://ask.csdn.net/questions/718705
+
+关于springboot中自动开启事务
+https://blog.csdn.net/qq_40794973/article/details/106597952
+
+
+springboot中事务配置
+https://www.cnblogs.com/alice-cj/p/10417773.html#:~:text=Spring%E4%BA%8B%E5%8A%A1%3Ctx%3Aannotation-driven%2F%3E%E7%9A%84%E7%90%86%E8%A7%A3%20%E5%9C%A8%E4%BD%BF%E7%94%A8Spring%E7%9A%84%E6%97%B6%E5%80%99%EF%BC%8C%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E4%B8%AD%E6%88%91%E4%BB%AC%E7%BB%8F%E5%B8%B8%E7%9C%8B%E5%88%B0%20annotation-driven,%E8%BF%99%E6%A0%B7%E7%9A%84%E6%B3%A8%E8%A7%A3%EF%BC%8C%E5%85%B6%E5%90%AB%E4%B9%89%E5%B0%B1%E6%98%AF%E6%94%AF%E6%8C%81%E6%B3%A8%E8%A7%A3%EF%BC%8C%E4%B8%80%E8%88%AC%E6%A0%B9%E6%8D%AE%E5%89%8D%E7%BC%80%20tx%E3%80%81mvc%20%E7%AD%89%E4%B9%9F%E8%83%BD%E5%BE%88%E7%9B%B4%E7%99%BD%E7%9A%84%E7%90%86%E8%A7%A3%E5%87%BA%E6%9D%A5%E5%88%86%E5%88%AB%E7%9A%84%E4%BD%9C%E7%94%A8%E3%80%82
+
+
+使用properties注册bean
+https://www.cnblogs.com/xiaomaomao/p/13934688.html
+
+
+南理工校园网网址
+http://m.njust.edu.cn/portal/index.html?redirect=aHR0cDovL3d3dy5nc3RhdGljLmNvbS9nZW5lcmF0ZV8yMDQ=
+
+
+有希望制作一个application.xml经典模板，当需要配置文件的时候整体拷贝过来，
+需要哪些保留哪些，不需要的地方直接删除
+同理推出mybatis配置xml文件的模板，等等
+最后退出springboot，spring，spring结合mybatis，spring结合mybatisplus等典型模板工程
+
+综上：模板工程、模板配置文件
+#spring相关配置
+spring:
+  datasource:
+    druid:
+      url: jdbc:mysql://localhost:3306/ssm?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      username: root
+      password: root
+  #关闭图标
+  main:
+    banner-mode: off
+
+#mybatisplus配置
+mybatis-plus:
+  #数据库表名前缀
+  global-config:
+    db-config:
+      table-prefix: my
+  #打印sql语句
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
+super看一下
+https://blog.csdn.net/yongbutingxide/article/details/82669054
+
+
+@Before和@BeforeEach的区别
+
+阿里巴巴的Fastjson了解一下
+https://www.runoob.com/w3cnote/fastjson-intro.html
+
+es博客笔记
+https://blog.csdn.net/u011863024/article/details/115721328
+
+
+@configurationProperties和@Value
+https://www.cnblogs.com/tian874540961/p/12146467.html
+
+pom.xml中的resource配置
+https://blog.csdn.net/wenonepiece/article/details/112721380
+
+springbootTest奇妙的一点是，它既然能够获得容器中的对象，就代表
+在springboottest中执行test的时候这些Bean已经在spring容器中进行注册了
+在springboottest里面可以获得spring上下文容器
+@Autowired
+ApplicationContext applicationContext;
+
+@MapperScan
+@Mapper的作用是把接口类直接变成实现类，我感觉现在遇到的能够这样用的也就只有mybaitsplus给我们写的那个了
+普通的类我们都是标注@repository、@commponent这种，对于接口类如果想要在spring容器中注册实体类还是需要使用
+@Mapper这个注解，当有太多的@Mapper注解需要写的时候，可以使用@MapperScan这个东西来替我们进行简便操作，用@MapperScan的话就不用写@Mapper了，在@mapperScan里面写接口类所在的包名就行,这样和@CompontScan是有区别的，@CommpontScan是
+必须要写@Service，@Commpont的，但是@MapperScan可以不写@Mapper，要注意区分
+
+关于destory，记录一下
+https://blog.csdn.net/qq_40093255/article/details/115730657
+
+关于springboottest
+https://www.cnblogs.com/myitnews/p/12330297.html
+
+@Commpansan
+关于commpansan要么放在@SpringBootApplication，即主类上边，或者放在自己新建的带@Configuration的注解
+上边，然后在@Commpanscan里面写需要被spring扫描的包名，如果被spring扫描到后，然后又被spring发现里面存在
+@service、@repository注解，就会被注册到spirng的ioc容器当中，在springboot工程中，有类似basepackage这种
+东西，即存在自动定义的commpanscan这个东西，自动扫描主类所在的包层级以及其子包层级，因此才不用我们自定义，
+
+https://www.jianshu.com/p/64aac6461d5b
+
+这个和beforeeach相对应,在springboottest中，所有的方法执行完的最后一个一定是这个
+@Aftereach
+
+spring的Bean：主要用在方法上:必须要有@Configuration,没有的话Bean无法使用
+https://blog.csdn.net/weixin_42140261/article/details/104615844
+https://blog.csdn.net/weixin_42140261/article/details/104864333
+
+
+最新版token
+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
+
+
+在springmvc即controller层中如果不写restcontroller，即写成controller这种形式，
+那么在写下面的具体业务时，如果不返回视图（view形式）,那么spring回替我们自动创建
+一个view什么的，这样会出现错误，
+解决办法：
+  1：不返回视图用@Responsobody，用在每个方法上
+  2：直接在整个类上加上@RestController注解，这样代表只返回json格式的数据，
+  那么返回的视图只能用modelAndView这种形式了.
+
+springmvc替我们自动封装数据
+https://blog.csdn.net/qq_33599978/article/details/71224986
+
+关于classpath：有时候在配置文件中找不到文件路径，需要使用classpath：前缀。
+https://blog.csdn.net/qq_35772435/article/details/105251885
+
+
+
+在IDEA中的new project setting添加的配置有
+
+1：File Encoding全部都设置成UTF-8
+2：添加git.exe的位置
+3: 配置maven的位置，同时将项目的build和run交给IDEA，并skip tests
+
+
+
+
+maven配置文件中的parent标签
+
+
+我感觉我这个才是最基本的一段配置yml代码
+server:
+  port: 80
+
+#mybatis配置
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+      table-prefix: tbl_
+    banner: off
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: off
+
+spring:
+  #druid数据源配置
+  datasource:
+    druid:
+      url: jdbc:mysql://localhost:3306/ssm?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      username: root
+      password: root
+  #图标
+  main:
+    banner-mode: off
+
+
+注意maven中denpendecmangement和dependency的区别
+
+
+读取文件的方式
+https://wenku.baidu.com/view/3830570f0422192e453610661ed9ad51f01d541e.html
+
+
+mybatis需要手动提交事务
+https://blog.csdn.net/weixin_45143924/article/details/122397913
+
+mybaits实现的几种方式
+https://blog.csdn.net/dichengyan0013/article/details/102346837?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-102346837-blog-80622449.pc_relevant_multi_platform_featuressortv2dupreplace&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-102346837-blog-80622449.pc_relevant_multi_platform_featuressortv2dupreplace&utm_relevant_index=2
+
+mybatis控制台打印sql语句
+https://blog.csdn.net/qq_37495786/article/details/82799910
+
+
+springmvc报文信息转换器
+https://blog.csdn.net/m0_55668855/article/details/121526569
+
+SpingMVC之<mvc:annotation-driven/>标签
+https://www.jianshu.com/p/fc3bc70b9ed3
+https://blog.csdn.net/weixin_44229645/article/details/107733358?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-107733358-blog-52817027.t5_layer_targeting_s_randoms&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-107733358-blog-52817027.t5_layer_targeting_s_randoms&utm_relevant_index=1
+
+springmvc
+https://www.jianshu.com/p/85b5f39ca5fc
+
+web.xml和spring容器和springmvc容器
+https://blog.csdn.net/dream_weave/article/details/120453822
+
+
+web.xml详细配置
+https://blog.csdn.net/Vermont_/article/details/109055686?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522166115841516781667862972%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=166115841516781667862972&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-109055686-null-null.142^v42^pc_rank_34,185^v2^control&utm_term=web.xml&spm=1018.2226.3001.4187
